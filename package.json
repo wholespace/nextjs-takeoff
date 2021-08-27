@@ -7,8 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "prettier --check .",
-    "format": "prettier --write **/*.{js}"
+    "format": "prettier --write"
   },
   "husky": {
     "hooks": {
@@ -17,8 +16,7 @@
   },
   "lint-staged": {
     "*.{js}": [
-      "npm run format",
-      "git add"
+      "npm run format"
     ]
   },
   "repository": {
