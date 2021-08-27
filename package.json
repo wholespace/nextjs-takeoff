@@ -16,7 +16,10 @@
     }
   },
   "lint-staged": {
-    "*": "prettier --write"
+    "*.{js}": [
+      "npm run format",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
