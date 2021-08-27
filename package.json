@@ -17,7 +17,7 @@
   "lint-staged": {
     "*.{js}": [
       "npm run format",
-      "git add"
+      "git add ."
     ]
   },
   "repository": {
