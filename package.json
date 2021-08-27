@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write"
+    "format": "prettier --write \"./**/*.{js,jsx,json}\""
   },
   "husky": {
     "hooks": {
