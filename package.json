@@ -6,19 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "format": "prettier --write \"./**/*.{js,jsx,json}\""
+    "start": "next start"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js}": [
-      "npm run format"
-    ]
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/"
@@ -37,8 +27,6 @@
   "devDependencies": {
     "autoprefixer": "10.3.3",
     "classnames": "2.3.1",
-    "husky": "^7.0.2",
-    "lint-staged": "^11.1.2",
     "postcss": "8.3.6",
     "postcss-100vh-fix": "1.0.2",
     "postcss-flexbugs-fixes": "5.0.2",
