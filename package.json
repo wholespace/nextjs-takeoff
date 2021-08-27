@@ -7,6 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "lint": "prettier --check .",
     "format": "prettier --write **/*.{js}"
   },
   "husky": {
@@ -15,10 +16,7 @@
     }
   },
   "lint-staged": {
-    "*.{js}": [
-      "npm run format",
-      "git add ."
-    ]
+    "*": "prettier --write"
   },
   "repository": {
     "type": "git",
