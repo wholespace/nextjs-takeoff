@@ -60,8 +60,12 @@ export default function Header() {
             )}
           >
             <div className='flex space-x-3'>
-              <img src='/support.svg' alt='support' />
-              <img src='/faq.svg' alt='faq' />
+              <Link href='#support'>
+                <img src='/support.svg' alt='support' />
+              </Link>
+              <Link href='#faq'>
+                <img src='/faq.svg' alt='faq' />
+              </Link>
             </div>
             <button
               type='button'
@@ -73,8 +77,12 @@ export default function Header() {
           </div>
         </ul>
         <div className='hidden md:flex space-x-2'>
-          <img src='/support.svg' alt='support' />
-          <img src='/faq.svg' alt='faq' />
+          <Link href='#support'>
+            <img src='/support.svg' alt='support' />
+          </Link>
+          <Link href='#faq'>
+            <img src='/faq.svg' alt='faq' />
+          </Link>
         </div>
         <button
           type='button'
