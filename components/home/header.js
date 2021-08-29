@@ -15,14 +15,14 @@ const Header = () => {
         <div className='flex mt-10'>
           <button
             type='button'
-            class='inline-flex z-10 items-center px-4 py-2 border border-transparent text-base font-medium rounded-2xl shadow-sm text-white bg-b-blue hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+            className='inline-flex z-10 items-center px-4 py-2 border border-transparent text-base font-medium rounded-2xl shadow-sm text-white bg-b-blue hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
           >
             <img src='/BSC.svg' alt='wallet' className='mr-2' width='40' />
             <h6 className='pr-10'>BSC</h6>
           </button>
           <button
             type='button'
-            class='inline-flex z-20 -ml-8 pl-10 items-center px-4 py-2 border border-transparent text-base font-medium rounded-2xl shadow-sm text-white bg-b-pink hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500'
+            className='inline-flex z-20 -ml-8 pl-10 items-center px-4 py-2 border border-transparent text-base font-medium rounded-2xl shadow-sm text-white bg-b-pink hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500'
           >
             <h6 className='mr-2'>ETH</h6>
             <img src='/ETH.svg' alt='wallet' width='40' />
