@@ -3,10 +3,10 @@ import Infobox from './infobox'
 
 const Achievement = () => {
   return (
-    <section className='mt-40 flex md:flex-row flex-col md:flex-nowrap flex-wrap justify-between items-center gap-24'>
+    <section className='mt-16 md:mt-40 flex md:flex-row flex-col md:flex-nowrap flex-wrap justify-between items-center gap-24'>
       <div className='w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-5'>
         <Infobox number='23' text='Total Presale' />
-        <Infobox number='640BNB / 65ETH' text='Raised In Total' />
+        <Infobox number='640BNB/65ETH' text='Raised In Total' />
         <Infobox number='2,455,180' text='Holders' />
         <Infobox number='234/day' text='Transactions' />
       </div>
@@ -19,7 +19,9 @@ const Achievement = () => {
           veniam consequat sunt nostrud amet.
         </p>
         <span className='b-pink mt-1 flex items-center'>
-          <p className='text-b-pink'>Read more </p>
+          <p className='text-b-pink hover:pink-800 focus:pink-900'>
+            Read more{' '}
+          </p>
           <img
             className='ml-1'
             src='/readmore.svg'
