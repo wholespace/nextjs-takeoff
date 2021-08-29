@@ -3,7 +3,7 @@ import Infobox from './infobox'
 
 const Achievement = () => {
   return (
-    <section className='mt-16 md:mt-40 flex md:flex-row flex-col md:flex-nowrap flex-wrap justify-between items-center gap-24'>
+    <section className='mt-16 md:mt-40 flex md:flex-row flex-col md:flex-nowrap flex-wrap justify-between items-center gap-10 md:gap-24'>
       <div className='w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-5'>
         <Infobox number='23' text='Total Presale' />
         <Infobox number='640BNB/65ETH' text='Raised In Total' />

@@ -6,7 +6,7 @@ const FeatItem = ({number, title}) => {
           {number}
         </p>
       </div>
-      <h6 className='ml-6 font-medium'>
+      <h6 className='ml-6 font-medium w-28'>
         {title}
       </h6>
     </div>
