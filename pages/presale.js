@@ -1,10 +1,15 @@
+import Help from "../components/help";
+import InfoBar from "../components/infoBar";
+import Brief from "../components/presale/brief";
+import Form from "../components/presale/form";
 
 export default function Presale() {
   return (
-    <div className='flex flex-col items-center justify-center space-y-12'>
-      <h2 className='p-3 font-bold bg-yellow-300 md:text-2xl'>
-        Hi! Welcome to presale
-      </h2>
-    </div>
+  <>
+    <Brief/>
+    <Form/>
+    <InfoBar/>
+    <Help/>
+  </>
   )
 }

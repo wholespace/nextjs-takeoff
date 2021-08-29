@@ -17,7 +17,7 @@ const Form = () => {
             type='text'
             name='email'
             id='email'
-            className='shadow-sm p-2 bg-gray-800 focus:ring-gray-500 focus:border-gray-500 block w-full sm:text-sm border-gray-300 rounded-sm'
+            className='shadow-sm p-2 bg-t-border border border-gray-700 focus:ring-gray-500 focus:border-gray-500 block w-full sm:text-sm rounded-sm'
             placeholder='you@example.com'
           />
         </div>
@@ -33,7 +33,7 @@ const Form = () => {
             name='message'
             id='message'
             rows='6'
-            className='shadow-sm p-2 bg-gray-800 focus:ring-gray-500 focus:border-gray-500 block w-full sm:text-sm border-gray-300 rounded-sm'
+            className='shadow-sm p-2 bg-t-border border border-gray-700 focus:ring-gray-500 focus:border-gray-500 block w-full sm:text-srounded-sm'
             placeholder='Type here...'
           />
         </div>
