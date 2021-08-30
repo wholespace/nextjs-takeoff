@@ -144,10 +144,10 @@ const Form = () => {
             </label>
             <div className='mt-1'>
               <input
-                type='text'
+                type='file'
                 name='logo'
                 id='logo'
-                className='shadow p-2 bg-t-border focus:ring-gray-500 focus:border-gray-500 block w-16 sm:col-span-3 sm:text-sm rounded-sm'
+                className='shadow p-2  focus:ring-gray-500 focus:border-gray-500 block w-26 sm:col-span-3 sm:text-sm rounded-sm'
                 placeholder='upload'
               />
             </div>
@@ -241,7 +241,7 @@ const Form = () => {
             htmlFor='min-contribution'
             className='block text-sm font-medium text-gray-500'
           >
-            Min-contribution
+            Min contribution
           </label>
           <div className='mt-1'>
             <input
