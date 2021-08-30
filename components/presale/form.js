@@ -188,9 +188,9 @@ const Form = () => {
               className='shadow-sm p-2 bg-t-border border border-gray-700 focus:ring-gray-500 focus:border-gray-500 block w-full sm:col-span-3 sm:text-sm rounded-sm'
               placeholder='presale rate'
             />
-            <div class='absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none'>
+            <div className='absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none'>
               <svg
-                class='h-5 w-5 text-gray-400'
+                className='h-5 w-5 text-gray-400'
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 20 20'
                 fill='currentColor'
@@ -283,9 +283,9 @@ const Form = () => {
               className='shadow-sm p-2 bg-t-border border border-gray-700 focus:ring-gray-500 focus:border-gray-500 block w-full sm:col-span-3 sm:text-sm rounded-sm'
               placeholder='governance rate'
             />
-            <div class='absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none'>
+            <div className='absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none'>
               <svg
-                class='h-5 w-5 text-gray-400'
+                className='h-5 w-5 text-gray-400'
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 20 20'
                 fill='currentColor'

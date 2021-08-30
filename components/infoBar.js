@@ -1,4 +1,5 @@
 import Info from './info';
+import Progressbar from './progressbar';
 
 const InfoBar = () => {
   return (
@@ -19,14 +20,7 @@ const InfoBar = () => {
         <Info num='20 BNB' text='Hard Cap' />
         <img className='inline my-auto ml-auto' src='/bararrow.svg' alt='bsc' />
       </div>
-      <div className='relative -mt-1'>
-        <div className='overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700'>
-          <div
-            style={{ width: '50%' }}
-            className='shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-b-blue'
-          ></div>
-        </div>
-      </div>
+      <Progressbar percent='50%' color='blue'/>
     </div>
   )
 }

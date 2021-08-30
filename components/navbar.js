@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <navbar>
-      <div className='flex flex-wrap items-center justify-between mx-6 sm:mx-12 md:mx-28 md:mt-12 sm:mt-8 '>
+      <div className='flex flex-wrap items-center justify-between mx-6 sm:mx-12 md:mx-28 mt-12 '>
         <div>
           <Link href='/'>
             <Image
