@@ -5,11 +5,11 @@ import Form from "../components/presale/form";
 
 export default function Presale() {
   return (
-  <>
-    <Brief/>
-    <Form/>
-    <InfoBar/>
-    <Help/>
-  </>
+    <>
+      <Brief />
+      <Form />
+      <InfoBar percent='50%' color='blue' result='Final Result' />
+      <Help />
+    </>
   )
 }

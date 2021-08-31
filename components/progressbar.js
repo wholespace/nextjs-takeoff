@@ -1,4 +1,4 @@
-const Progressbar = ({percent, color}) => {
+const Progressbar = ({percent='0%', color}) => {
   return (
     <div className='relative '>
       <div className='overflow-hidden h-2  text-xs flex rounded bg-gray-700'>

@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <section className='mt-16 md:mt-40'>
+    <section className='my-16 md:my-20'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-12 md:gap-x-40 md:gap-y-0 gap-y-12'>
         <div className='flex flex-col'>
           <h4 className='mb-10 md:mb-16'>Contact info</h4>
