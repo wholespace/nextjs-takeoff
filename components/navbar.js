@@ -45,6 +45,7 @@ export default function Header() {
           {[
             { title: 'Home', route: '/' },
             { title: 'Dashboard', route: '/dashboard' },
+            { title: 'Status', route: '/dashboard2' },
             { title: 'Create Presale', route: '/presale' },
           ].map(({ route, title }) => (
             <li className='mt-3 md:mt-0 md:ml-6' key={title}>
