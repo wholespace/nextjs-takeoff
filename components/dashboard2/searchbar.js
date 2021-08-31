@@ -12,9 +12,10 @@ export default function SearchBar() {
       </div>
         <button
           type='button'
-          className='flex ml-4 items-center px-4 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-b-yellow hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500'
+          className='flex ml-4 items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-b-yellow hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500'
         >
-          Search&nbsp;<img src="/search.svg" alt="search" className='pr-4'/>
+          <h5 className="ml-auto">Search&nbsp;</h5>
+          <img src="/search.svg" alt="search"/>
         </button>
     </div>
   )
