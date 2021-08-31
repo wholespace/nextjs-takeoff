@@ -135,22 +135,23 @@ const Form = () => {
             />
           </div>
           <br />
-          <div className='flex gap-x-3 items-center mt-0 md:mt-6'>
+          <div className='flex gap-x-3 items-center'>
             <label
               htmlFor='logo'
               className='block text-sm font-medium text-gray-500'
             >
               Logo
             </label>
-            <div className='mt-1'>
-              <input
-                type='file'
-                name='logo'
-                id='logo'
-                className='shadow p-2  focus:ring-gray-500 focus:border-gray-500 block w-26 sm:col-span-3 sm:text-sm rounded-sm'
-                placeholder='upload'
-              />
-            </div>
+              <div className="max-w-lg flex justify-center px-6 pt-5 pb-6 border-2 border-gray-700 border-dashed rounded-md">
+                <div className="space-y-1 text-center">
+                  <div className="flex text-sm text-gray-600 p-2 text-center">
+                    <label for="file-upload" className="relative cursor-pointer bg-transparent rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                      <span>Upload a file</span>
+                      <input id="file-upload" name="file-upload" type="file" className="sr-only" />
+                    </label>
+                  </div>
+                </div>
+              </div>
           </div>
           <br />
           <label

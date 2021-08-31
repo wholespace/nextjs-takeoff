@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <footer className='flex flex-wrap border-t border-t-border justify-center md:justify-between py-6 mt-16 md:mt-20'>
-      <p className='ml-6 sm:ml-12 md:ml-28'>
-        Copyright @ 2021 TAKEOFF LLC. - All Rights Reserved
-      </p>
-      <ul className='mr-6 sm:mr-12 md:mr-28 flex space-x-6'>
+  <>
+    <hr className='border-t border-t-border mt-20'/>
+    <footer className='flex flex-wrap gap-x-20 gap-y-3 md:gap-y-0 justify-center items-center md:justify-between py-6 mx-6 sm:mx-12 md:mx-28'>
+      <p className=' '>Copyright @ 2021 TAKEOFF LLC. - All Rights Reserved</p>
+      <ul className=' flex text-center md:text-left space-x-6'>
         <li>
           <a
             href='https://design.com'
@@ -35,5 +35,6 @@ export default function Footer() {
         </li>
       </ul>
     </footer>
+    </>
   )
 }

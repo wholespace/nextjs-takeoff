@@ -14,7 +14,7 @@ export default function SearchBar() {
           type='button'
           className='flex ml-4 items-center px-4 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-b-yellow hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500'
         >
-          Search&nbsp;<img src="/search.svg" alt="search" />
+          Search&nbsp;<img src="/search.svg" alt="search" className='pr-4'/>
         </button>
     </div>
   )

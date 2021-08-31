@@ -2,7 +2,7 @@ import Toggle from './../toggle'
 
 const Stats = () => {
   return (
-    <div className='grid grid-cols-3 mt-8 gap-y-5 px-8'>
+    <div className='grid grid-cols-3 mt-8 gap-y-5'>
       <div className='flex items-center justify-start'>
         <h5 className='text-gray-50'>Liquidity:</h5>
       </div>
@@ -59,7 +59,7 @@ const Stats = () => {
           type='number'
           name='liquidity'
           id='liquidity'
-          className='w-12 text-center border-rounded border-0 border-b border-gray-700 bg-transparent'
+          className='w-8 text-center border-rounded border-0 border-b border-gray-700 bg-transparent'
           placeholder='0'
         />
       </div>
